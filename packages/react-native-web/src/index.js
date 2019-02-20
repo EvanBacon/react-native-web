@@ -38,7 +38,6 @@ import Vibration from './exports/Vibration';
 
 // components
 import ActivityIndicator from './exports/ActivityIndicator';
-import ART from './exports/ART';
 import Button from './exports/Button';
 import CheckBox from './exports/CheckBox';
 import FlatList from './exports/FlatList';
@@ -147,7 +146,6 @@ export {
   Vibration,
   // components
   ActivityIndicator,
-  ART,
   Button,
   CheckBox,
   FlatList,
@@ -214,112 +212,3 @@ export {
   TVEventHandler,
   VibrationIOS
 };
-
-const ReactNative = {
-  // top-level API
-  createElement,
-  findNodeHandle,
-  render,
-  unmountComponentAtNode,
-  // modules
-  processColor,
-  NativeModules,
-  TextPropTypes,
-  ViewPropTypes,
-  // APIs
-  AccessibilityInfo,
-  Alert,
-  Animated,
-  AppRegistry,
-  AppState,
-  AsyncStorage,
-  BackHandler,
-  Clipboard,
-  DeviceInfo,
-  Dimensions,
-  Easing,
-  I18nManager,
-  InteractionManager,
-  Keyboard,
-  LayoutAnimation,
-  Linking,
-  NativeEventEmitter,
-  NetInfo,
-  PanResponder,
-  PixelRatio,
-  Platform,
-  Share,
-  StyleSheet,
-  UIManager,
-  Vibration,
-  // components
-  ActivityIndicator,
-  ART,
-  Button,
-  CheckBox,
-  FlatList,
-  Image,
-  ImageBackground,
-  KeyboardAvoidingView,
-  ListView,
-  Modal,
-  Picker,
-  ProgressBar,
-  RefreshControl,
-  SafeAreaView,
-  ScrollView,
-  SectionList,
-  Slider,
-  StatusBar,
-  SwipeableFlatList,
-  SwipeableListView,
-  Switch,
-  Text,
-  TextInput,
-  Touchable,
-  TouchableHighlight,
-  TouchableNativeFeedback,
-  TouchableOpacity,
-  TouchableWithoutFeedback,
-  View,
-  VirtualizedList,
-  YellowBox,
-  // propTypes
-  ColorPropType,
-  EdgeInsetsPropType,
-  PointPropType,
-  // compat (components)
-  DatePickerIOS,
-  DrawerLayoutAndroid,
-  ImageEditor,
-  ImageStore,
-  InputAccessoryView,
-  MaskedViewIOS,
-  NavigatorIOS,
-  PickerIOS,
-  ProgressBarAndroid,
-  ProgressViewIOS,
-  SegmentedControlIOS,
-  SnapshotViewIOS,
-  TabBarIOS,
-  ToastAndroid,
-  ToolbarAndroid,
-  ViewPagerAndroid,
-  WebView,
-  // compat (apis)
-  ActionSheetIOS,
-  AlertIOS,
-  CameraRoll,
-  DatePickerAndroid,
-  ImagePickerIOS,
-  PermissionsAndroid,
-  PushNotificationIOS,
-  Settings,
-  StatusBarIOS,
-  Systrace,
-  TimePickerAndroid,
-  TVEventHandler,
-  VibrationIOS
-};
-
-export default ReactNative;
